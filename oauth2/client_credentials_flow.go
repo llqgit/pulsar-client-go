@@ -18,11 +18,9 @@
 package oauth2
 
 import (
-	"net/http"
-
-	"github.com/apache/pulsar-client-go/oauth2/clock"
-
+	"github.com/llqgit/pulsar-client-go/oauth2/clock"
 	"github.com/pkg/errors"
+	"net/http"
 )
 
 // ClientCredentialsFlow takes care of the mechanics needed for getting an access

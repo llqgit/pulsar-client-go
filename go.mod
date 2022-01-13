@@ -5,7 +5,6 @@ go 1.13
 require (
 	github.com/AthenZ/athenz v1.10.39
 	github.com/DataDog/zstd v1.5.0
-	github.com/apache/pulsar-client-go/oauth2 v0.0.0-20201120111947-b8bd55bc02bd
 	github.com/beefsack/go-rate v0.0.0-20180408011153-efa7637bb9b6
 	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b
 	github.com/davecgh/go-spew v1.1.1
@@ -14,6 +13,7 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/klauspost/compress v1.10.8
 	github.com/linkedin/goavro/v2 v2.9.8
+	github.com/llqgit/pulsar-client-go/oauth2 v0.0.0-20201120111947-b8bd55bc02bd
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pierrec/lz4 v2.0.5+incompatible
 	github.com/pkg/errors v0.9.1
@@ -26,4 +26,4 @@ require (
 	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
 )
 
-replace github.com/apache/pulsar-client-go/oauth2 => ./oauth2
+replace github.com/llqgit/pulsar-client-go/oauth2 => ./oauth2

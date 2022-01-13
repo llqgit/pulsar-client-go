@@ -19,13 +19,11 @@ package oauth2
 
 import (
 	"errors"
-	"time"
-
-	"github.com/apache/pulsar-client-go/oauth2/clock"
-	"github.com/apache/pulsar-client-go/oauth2/clock/testing"
-
+	"github.com/llqgit/pulsar-client-go/oauth2/clock"
+	"github.com/llqgit/pulsar-client-go/oauth2/clock/testing"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"time"
 )
 
 type MockClientCredentialsProvider struct {

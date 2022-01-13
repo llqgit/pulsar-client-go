@@ -1,9 +1,8 @@
-module github.com/apache/pulsar-client-go/oauth2
+module github.com/llqgit/pulsar-client-go/oauth2
 
 go 1.13
 
 require (
-	github.com/99designs/keyring v1.1.6
 	github.com/form3tech-oss/jwt-go v3.2.3+incompatible
 	github.com/onsi/ginkgo v1.14.0
 	github.com/onsi/gomega v1.10.1
