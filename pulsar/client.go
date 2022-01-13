@@ -21,8 +21,8 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal/auth"
-	"github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/llqgit/pulsar-client-go/pulsar/internal/auth"
+	"github.com/llqgit/pulsar-client-go/pulsar/log"
 )
 
 // NewClient Creates a pulsar client instance

@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsar/crypto"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
-	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
-	plog "github.com/apache/pulsar-client-go/pulsar/log"
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"
+	"github.com/llqgit/pulsar-client-go/pulsar/crypto"
+	"github.com/llqgit/pulsar-client-go/pulsar/internal"
+	pb "github.com/llqgit/pulsar-client-go/pulsar/internal/pulsar_proto"
+	plog "github.com/llqgit/pulsar-client-go/pulsar/log"
 	"github.com/pierrec/lz4"
 	"github.com/stretchr/testify/assert"
 )
