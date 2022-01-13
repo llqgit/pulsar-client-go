@@ -23,9 +23,8 @@ import (
 	"time"
 
 	"github.com/llqgit/pulsar-client-go/oauth2"
-	"github.com/llqgit/pulsar-client-go/oauth2/store"
-
 	"github.com/llqgit/pulsar-client-go/oauth2/clock"
+	"github.com/llqgit/pulsar-client-go/oauth2/store"
 	xoauth2 "golang.org/x/oauth2"
 )
 
